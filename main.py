@@ -27,7 +27,6 @@ try:
 except ImportError:
     HAS_WINEXTRAS = False
 
-# Убираем проблемные настройки окружения
 os.environ.pop("QT_QUICK_BACKEND", None)
 os.environ.pop("QT_QPA_PLATFORM", None)
 os.environ.pop("QT_LOGGING_RULES", None)
@@ -218,7 +217,6 @@ class ModernProgressBar(QProgressBar):
         painter.setBrush(QBrush(gradient))
         painter.drawRoundedRect(progress_rect, 4, 4)
         
-        # Добавляем текст с процентами
         painter.setPen(QColor(255, 255, 255))
         painter.setFont(QFont("Arial", 8))
         text = f"{self.value()}%"
@@ -445,7 +443,6 @@ class ModernRusificatorApp(QWidget):
         self.blur_slider.setRange(0, 100)
         self.blur_slider.setValue(50)
         
-        # Создаем метку значения перед подключением сигнала
         self.blur_value_label = QLabel("50")
         self.blur_value_label.setStyleSheet("color: white; font-size: 12px; font-family: Arial, sans-serif;")
         self.blur_value_label.setFixedWidth(30)
@@ -471,7 +468,6 @@ class ModernRusificatorApp(QWidget):
             }
         """)
         
-        # Подключаем сигнал после создания всех элементов
         self.blur_slider.valueChanged.connect(self.update_blur_intensity)
         
         blur_layout.addWidget(blur_label)
@@ -500,7 +496,7 @@ class ModernRusificatorApp(QWidget):
         
         content_layout.addWidget(status_card)
         
-        # Карточка лога
+        # Логи
         log_card = GlassCard()
         log_card.setMinimumHeight(180)
         log_layout = QVBoxLayout(log_card)
@@ -548,7 +544,6 @@ class ModernRusificatorApp(QWidget):
         self.shadow.setOffset(0, 3)
         self.setGraphicsEffect(self.shadow)
         
-        # Изменение размера
         self.size_grip = QSizeGrip(self)
         self.size_grip.setStyleSheet("""
             QSizeGrip {
@@ -839,18 +834,15 @@ def main():
             )
             return
 
-        # Упрощаем настройки для оптимизации
         QApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
         QApplication.setAttribute(Qt.AA_UseHighDpiPixmaps)
         
         app = QApplication(sys.argv)
         app.setStyle('Fusion')
         
-        # Устанавливаем стандартный шрифт для избежания ошибок
         font = QFont("Arial", 9)
         app.setFont(font)
         
-        # Убираем лишние стили
         app.setStyleSheet("""
             QToolTip {
                 background-color: rgba(30, 35, 40, 220);
