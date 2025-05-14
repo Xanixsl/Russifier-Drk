@@ -1,4 +1,4 @@
-# Russifier DRK - Руссификатор для драйверов Darmoshark
+# Russifier DRK - Русификатор для драйверов Darmoshark
 
 ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FXanixsl%2FRussifier-Drk&label=Visitors&icon=people&color=%23c5b3e6)
 [![Downloads](https://img.shields.io/github/downloads/Xanixsl/Russifier-Drk/total?label=Downloads&style=flat-square)](https://github.com/Xanixsl/Russifier-Drk/releases)
