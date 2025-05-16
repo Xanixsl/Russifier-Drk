@@ -1,7 +1,7 @@
 # Russifier DRK - Русификатор для драйверов Darmoshark
 
+[![Download](https://img.shields.io/badge/Download-DRK_Russifier-ff6b8b?style=for-the-badge&logo=github&logoColor=white&labelColor=ffc3d0)](https://github.com/Xanixsl/Russifier-Drk/releases/latest/download/DRK.exe)
 ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FXanixsl%2FRussifier-Drk&label=Visitors&icon=people&color=%23c5b3e6)
-[![Download Count](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FXanixsl%2FRussifier-Drk%2Freleases%2Flatest%2Fdownload%2FDRK.exe&label=Downloads&color=0078D7)](https://github.com/Xanixsl/Russifier-Drk/releases/latest/download/DRK.exe)
 [![Latest Version](https://img.shields.io/github/v/release/Xanixsl/Russifier-Drk?label=Latest%20Version&style=flat-square)](https://github.com/Xanixsl/Russifier-Drk/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
 
