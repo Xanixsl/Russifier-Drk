@@ -7,6 +7,7 @@
 
 <img src="https://github.com/user-attachments/assets/0f139f68-0bd6-4068-b7e9-9480534085d2" alt="Russifier DRK Screenshot" width="650"/>
 
+[![Download Multi Lang Version](https://img.shields.io/badge/Download-Multi_Lang_Version-0078D7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Xanixsl/Drk-Multi-Lang)
 ## 🚀 О программе
 
 **Russifier DRK** - это программа для автоматического перевода драйверов мыши **Darmoshark** моделей **M3, M3s и N3** на русский язык без необходимости ручного изменения файлов локализации.
